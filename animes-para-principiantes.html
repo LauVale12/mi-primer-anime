@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes para principiantes</title>
+    <link rel="stylesheet" href="css/styleAnime.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/shareStyles.css">
+</head>
+
+<body>
+    <header>
+        <button>Menu</button>
+        <div class="nav hide-menu" id="nav">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-generos.html">Sobre Géneros</a></li>
+                <li><a href="animes-para-principiantes.html">Animes Para Principiantes</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <div class="desc-animes">
+            <p>Aquí puedes encontrar varios animes faciles de digerir con los que puedes empezar tu aventura
+                al mundo del anime</p>
+        </div>
+        <div class="animes">
+            <div class="anime" id="anime1">
+                <img src="img/demon_slayer_kimetsu_no_yaiba.webp" alt="imagen de kimetsu no yaiba">
+                <p>Kimetsu no yaiba / demon slayer</p>
+                <p>El protagonista principal, Tanjiro, inicia una aventura
+                    para encontrar una forma en la que su hermana, Nezuko,
+                    vuelva a ser humana. Tanjiro se enfrentará a diferentes
+                    enemigos y desafíos a medida que progresa su aventura. </p>
+                <p>Género: Shonen</p>
+                <p>Sub-géneros:
+                    acción, comedia,
+                    sobrenatural</p>
+            </div>
+            <div class="anime" id="anime2">
+                <img src="img/kimi-no-na-wa.jpg" alt="imagen de kimi no na wa">
+                <p>Kimi no na wa / your name / tu nombre</p>
+                <p>Los dos protagonistas principales, se encuentran en una situación extraña en la que cambian de
+                    cuerpo, estos se dejan notas mutuamente para intentar encontrar una solución a su problema.</p>
+                <p>Género: Romance</p>
+                <p>Sub-géneros: fantasia, drama, sobrenatural</p>
+            </div>
+            <div class="anime" id="anime3">
+                <img src="img/Futari_Wa_Pretty_Cure_Poster_1.webp" alt="imagen de pretty cure">
+                <p>Futari wa pretty cure / pretty cure</p>
+                <p>Dos adolescentes se conocen debido a que dos guardianes del jardín de la luz, les piden ayuda para
+                    poder pelear contra la zona dokutsu que invadió el planeta natal de los guardianes, para esto les
+                    obsequian la habilidad de transformarse en pretty cure, unas guerreras legendarias, naciendo así
+                    cure black y cure white. Acompáñalas a ver como crece su amistad y pelean contra el mal.</p>
+                <p>Género: Mahou shoujo</p>
+                <p>Sub-géneros: fantasia, escolar, peleas</p>
+            </div>
+            <div class="anime" id="anime4">
+                <img src="img/Digimon_Adventure_Serie_de_TV-763330122-large.jpg" alt="imagen de digimon">
+                <p>Digimmon adventure</p>
+                <p>Ocho niños son transportados al mundo digital, sitio donde viven los digimons, para poder ayudar a
+                    salvarlo. Cada uno tendrá un digimon que los ayudará a sobrevivir en este nuevo mundo y cumplir el
+                    objetivo final de salvar el mundo digital.</p>
+                <p>Género: Shonen</p>
+                <p>Sub-géneros: fantasia, comedia, peleas</p>
+            </div>
+            <div class="anime" id="anime5">
+                <img src="img/Dr._Stone_29_promocional.webp" alt="imagen de dr.stone">
+                <p>Dr. Stone</p>
+                <p>Un rayo convierte a todos los humanos en piedra, y varios siglos después Senku se despierta de la
+                    petrificación, en un mundo post-apocalíptico, busca como despertar a los otros humanos y recuperar
+                    el progreso de la civilización a través de la ciencia, para volver a tener un mundo similarmente
+                    desarrollado al que existía antes.</p>
+                <p>Género: Aventura</p>
+                <p>Sub-géneros: ciencia ficción, comedia</p>
+            </div>
+
+            <form action="" id="formulario">
+                <label for="nombre-anime-jp">Nombre del anime en japones</label>
+                <input id="nombre-anime-jp" type="text" required>
+                <br>
+                <label for="nombre-anime-en">Nombre del anime en ingles</label>
+                <input id="nombre-anime-en" type="text">
+                <br>
+                <label for="nombre-anime-es">Nombre del anime en español</label>
+                <input id="nombre-anime-es" type="text">
+                <br>
+                <label for="descrip-anime">Descripción del anime</label>
+                <textarea name="descrip-anime" id="descrip-anime" required></textarea>
+                <br>
+                <label for="genero-prin">Género principal</label>
+                <input id="genero-prin" type="text" required>
+                <br>
+                <label for="subgeneros">Subgéneros</label>
+                <input id="subgeneros" type="text">
+                <br>
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </div>
+
+    </div>
+    <script src="js/animes.js"></script>
+    <script src="js/appMenu.js"></script>
+</body>
+
+</html>
