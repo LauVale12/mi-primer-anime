@@ -1,11 +1,11 @@
 :root {
-    --fondoPrimario: #2b2b2b;
-    --magenta: #EA5480;
-    --Naranja: #FF7F27;
+    --fondoPrimario: #40405f;
+    --nav: #ff9be1;
+    --login: #d396ff;
     --Azul: #00A2E8;
     --AzulClaro: #00C7E8;
     --Turquesa: #00E8DE;
-    --fondoSecundario: #404040;
+    --fondoSecundario: #2a2a83;
 }
 
 body {
@@ -20,9 +20,9 @@ body {
     background-color: var(--fondoSecundario);
     height: 100%;
     max-width: 80%;
-    box-shadow: 0px 3px 4px 6px #676767;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    box-shadow: 0px 3px 4px 6px #6d6da2;
+    font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
 
 article {
@@ -74,8 +74,8 @@ article {
         height: 100%;
         max-width: 100%;
         box-shadow: 0px 3px 4px 6px #676767;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 18px;
+        font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
     }
 
     .nombres {

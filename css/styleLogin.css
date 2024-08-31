@@ -1,7 +1,7 @@
 :root {
-    --fondoPrimario: #2b2b2b;
-    --magenta: #EA5480;
-    --Naranja: #FF7F27;
+    --fondoPrimario: #40405f;
+    --nav: #ff9be1;
+    --login: #d396ff;
     --Azul: #00A2E8;
     --AzulClaro: #00C7E8;
     --Turquesa: #00E8DE;
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     /*background-image: linear-gradient(to bottom, var(--Azul), var(--fondoPrimario), var(--magenta), var(--Azul));*/
-    background-image: url(../img/patron-repetible.png);
+    background-image: url(../img/fondo-brillo.png);
     background-size: 100% 100%;
 }
 
@@ -28,16 +28,16 @@ body {
     background-color: var(--fondoPrimario);
     border-radius: 10px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
 
 h2 {
-    color: var(--Naranja);
+    color: var(--login);
 }
 
 form {
-    font-size: 26px;
+    font-size: 15px;
     margin-bottom: 25px;
     margin: auto;
     text-align: center;
@@ -52,7 +52,7 @@ input {
     padding: 10px;
     margin: 15px auto;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -60,7 +60,7 @@ input {
     width: fit-content;
     border-radius: 10px;
     padding: 15px;
-    background-color: var(--Naranja);
+    background-color: var(--login);
 }
 
 #login:hover {
@@ -74,8 +74,8 @@ input {
         background-color: var(--fondoPrimario);
         border-radius: 10px;
         text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 18px;
+        font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
     }
 
     form {

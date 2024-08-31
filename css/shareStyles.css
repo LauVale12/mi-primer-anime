@@ -1,11 +1,11 @@
 :root {
-    --fondoPrimario: #2b2b2b;
-    --magenta: #EA5480;
-    --Naranja: #FF7F27;
+    --fondoPrimario: #40405f;
+    --nav: #ff9be1;
+    --login: #d396ff;
     --Azul: #00A2E8;
     --AzulClaro: #00C7E8;
     --Turquesa: #00E8DE;
-    --fondoSecundario: #404040;
+    --fondoSecundario: #383872;
 }
 
 body {
@@ -13,9 +13,10 @@ body {
 }
 
 .nav {
-    background-color: var(--magenta);
-    font-family: Helvetica, sans-serif;
-    font-weight: bolder;
+    background-color: var(--nav);
+    font-family: "Lilita One", Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: normal;
     padding: 1em;
     text-align: center;
     display: flex;
@@ -33,7 +34,7 @@ body {
 
 .nav .login {
     display: flex;
-    background-color: var(--Naranja);
+    background-color: var(--login);
     justify-content: right;
     height: 100%;
 }
@@ -62,9 +63,9 @@ button {
 
 @media (max-width: 768px) {
     header {
-        background-color: var(--magenta);
-        font-family: Helvetica, sans-serif;
-        font-weight: bolder;
+        background-color: var(--nav);
+        font-family: "Lilita One", Helvetica, sans-serif;
+        font-weight: 200;
         padding: 1em;
         text-align: center;
         position: fixed;
@@ -76,17 +77,17 @@ button {
 
     button {
         display: block;
-        background-color: var(--magenta);
+        background-color: var(--nav);
         border: none;
-        font-weight: bolder;
-        font-family: Helvetica, sans-serif;
-        padding: 10px;
-        margin: auto;
+        font-weight: 200;
+        font-family: "Lilita One", Helvetica, sans-serif;
+        padding: 0;
+        margin: 0 auto;
         max-width: fit-content;
     }
 
     .nav {
-        margin-top: 50px;
+        margin-top: 40px;
         max-width: 100%;
     }
 
@@ -98,17 +99,29 @@ button {
         display: none;
     }
 
-    .nav .menu {
-        display: block;
-        padding: 10px;
-        margin: 15px;
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
-    .nav .login {
-        display: block;
-        background-color: var(--Naranja);
-        padding: 10px;
-        margin: 15px;
-        width: 80%;
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: var(--login);
+        padding: 0;
+        margin: 0;
     }
+
+    .nav li {
+        padding: 1em;
+        margin: 0;
+    }
+
+
 }
