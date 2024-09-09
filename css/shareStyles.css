@@ -57,7 +57,7 @@ body {
     color: #fff;
 }
 
-button {
+#btMenu {
     display: none;
 }
 
@@ -75,7 +75,7 @@ button {
         font-size: small;
     }
 
-    button {
+    #btMenu {
         display: block;
         background-color: var(--nav);
         border: none;

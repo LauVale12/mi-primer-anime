@@ -44,9 +44,9 @@ article {
 }
 
 .nombre-genero {
+    font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: var(--AzulClaro);
     width: 20%;
-
     margin: 10px;
     padding: 5px 20px;
     border-radius: 10px;

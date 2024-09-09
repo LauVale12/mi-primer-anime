@@ -1,7 +1,7 @@
-const btMenu = document.querySelector('button');
+const btMenu = document.getElementById('btMenu');
 const barraNav = document.getElementById('nav');
 
-btMenu.addEventListener('click', (e) => {
+btMenu.addEventListener('click', () => {
     showHide();
 });
 
