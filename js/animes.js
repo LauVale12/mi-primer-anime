@@ -1,21 +1,21 @@
-const inpNombreAnimeJp = document.getElementById('nombre-anime-jp');
-const inpNombreAnimeEn = document.getElementById('nombre-anime-en');
-const inpNombreAnimeEs = document.getElementById('nombre-anime-es');
-const inpDescripAnime = document.getElementById('descrip-anime');
-const inpGeneroPrin = document.getElementById('genero-prin');
-const inpSubgeneros = document.getElementById('subgeneros');
+const inpNombreAnimeJp = document.getElementById('nombre_Jp');
+const inpNombreAnimeEn = document.getElementById('nombre_In');
+const inpNombreAnimeEs = document.getElementById('nombre_Es');
+const inpDescripAnime = document.getElementById('descripcion');
+const inpGeneroPrin = document.getElementById('genero');
+const inpSubgeneros = document.getElementById('subgenero');
 const btEnviar = document.getElementById('enviar');
 
 const formulario = document.getElementById('formulario');
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
-    let nombreAnimeJp = inpNombreAnimeJp.value;
-    let nombreAnimeEn = inpNombreAnimeEn.value;
-    let nombreAnimeEs = inpNombreAnimeEs.value;
-    let descripAnime = inpDescripAnime.value;
-    let generoPrin = inpGeneroPrin.value;
-    let subgeneros = inpSubgeneros.value;
+    let nombre_Jp = inpNombreAnimeJp.value;
+    let nombre_In = inpNombreAnimeEn.value;
+    let nombre_Es = inpNombreAnimeEs.value;
+    let descripcion = inpDescripAnime.value;
+    let genero = inpGeneroPrin.value;
+    let subgenero = inpSubgeneros.value;
 
 
 });

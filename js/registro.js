@@ -1,9 +1,11 @@
 const inpCorreo = document.getElementById('correo');
 const inpContraseña = document.getElementById('contraseña');
-const inpConfContraseña = document.getElementById('conf-contraseña');
-const btEnviar = document.getElementById('login');
+const inpConfContraseña = document.getElementById('confContraseña');
+const btEnviar = document.getElementById('registro');
 
-const formulario = document.getElementById('formulario');
+const formulario = document.getElementById('registroR');
+
+
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();

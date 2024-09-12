@@ -87,31 +87,32 @@
             </div>
 
             <form action="" id="formulario">
-                <label for="nombre-anime-jp">Nombre del anime en japones</label>
-                <input id="nombre-anime-jp" type="text" required>
+                <label for="nombre_Jp">Nombre del anime en japonés</label>
+                <input id="nombre_Jp" name="nombre_Jp" type="text" required>
                 <br>
-                <label for="nombre-anime-en">Nombre del anime en ingles</label>
-                <input id="nombre-anime-en" type="text">
+                <label for="nombre_In">Nombre del anime en ingles</label>
+                <input id="nombre_In" name="nombre_In" type="text">
                 <br>
-                <label for="nombre-anime-es">Nombre del anime en español</label>
-                <input id="nombre-anime-es" type="text">
+                <label for="nombre_Es">Nombre del anime en español</label>
+                <input id="nombre_Es" name="nombre_Es" type="text">
                 <br>
-                <label for="descrip-anime">Descripción del anime</label>
-                <textarea name="descrip-anime" id="descrip-anime" required></textarea>
+                <label for="descripcion">Descripción del anime</label>
+                <textarea name="descripcion" id="descripcion" required></textarea>
                 <br>
-                <label for="genero-prin">Género principal</label>
-                <input id="genero-prin" type="text" required>
+                <label for="genero">Género principal</label>
+                <input id="genero" name="genero" type="text" required>
                 <br>
-                <label for="subgeneros">Subgéneros</label>
-                <input id="subgeneros" type="text">
+                <label for="subgenero">Subgéneros</label>
+                <input id="subgenero" name="subgenero" type="text">
                 <br>
-                <input type="submit" value="Enviar" id="enviar">
+                <button type="button" onclick="enviarDatosFormularioAnime()" value="RegistroAnime" id="enviar">Enviar</button>
             </form>
         </div>
 
     </div>
     <script src="js/animes.js"></script>
     <script src="js/appMenu.js"></script>
+    <script src="/home/usuario/Documentos/Poyectos Tech/proBackEnd/form.js"></script>
 </body>
 
 </html>
