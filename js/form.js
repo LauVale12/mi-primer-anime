@@ -88,7 +88,7 @@ async function enviarDatosFormularioAnime() {
     const data = Object.fromEntries(formData.entries());
 
     if (!data.nombre_Jp) {
-        alert("El nombre en japonés es obligatorio desde el form"); //CAMBIO
+        alert("El nombre en japonés es obligatorio desde el form"); 
         return;
     }
 
