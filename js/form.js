@@ -31,7 +31,7 @@ async function enviarDatosFormulario() {
             console.log('Usuario registrado con éxito:', result);
             alert('Usuario registrado con éxito');
             // Redirigir a otra página
-            //window.location.href = '../index.html'; 
+            window.location.href = '../index.html'; 
         } else {
             const error = await response.text();
             console.error('Error al registrar usuario:', error);
@@ -67,7 +67,7 @@ async function loginEnviarDatosFormulario() {
             console.log('Inicio de sesión exitoso:', result);
             alert('Inicio de sesión exitoso');
             // Redirigir a otra página
-           // window.location.href = '../index.html'; 
+            window.location.href = '../index.html'; 
         } else {
             const error = await response.text();
             console.error('Error al iniciar sesión:', error);
