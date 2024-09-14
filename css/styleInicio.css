@@ -7,6 +7,15 @@
     --Turquesa: #00E8DE;
 }
 
+h2 {
+    margin: 1em;
+    text-align: center;
+    font-family: "Lilita One", Helvetica, sans-serif;
+    font-weight: 300;
+    font-style:oblique;
+    color: var(--nav);
+}
+
 .contenido {
     display: flex;
 }
@@ -15,7 +24,7 @@ section {
     font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     padding: auto;
-    margin: 30px 10px 30px;
+    margin: 15px 10px 30px;
 }
 
 .imagen {
@@ -61,6 +70,15 @@ aside {
 }
 
 @media (max-width: 768px) {
+
+    h2 {
+        margin: 0.5em;
+    }
+
+    .imagen {
+        margin-top: 40px;
+    }
+
     .contenido {
         display: flex;
     }
@@ -69,7 +87,7 @@ aside {
         font-family: "Noto Sans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         padding: auto;
-        margin: 10% 15px 30px;
+        margin: 5% 15px 30px;
     }
 
     aside {
